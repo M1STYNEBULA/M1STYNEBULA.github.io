@@ -1,0 +1,39 @@
+
+body, html {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(135deg, #102e23, #080b20);
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Ensures the background stays in place */
+}
+
+input, textarea, button {
+  font-family: inherit;
+  margin: 8px 0;
+  width: 100%;
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+}
+
+input, textarea {
+  padding: 10px;
+  background-color: rgba(19, 158, 110, 0.32);
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: 300; /* Lighter font weight for inputs for contrast */
+}
+
+button {
+  background-color: rgba(19, 158, 110, 0.32); /* Dark Emerald Green */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-weight: bold; /* Bold text for actions */
+}
+
+button:hover {
+  background-color: rgba(5, 14, 4, 0.95); /* Slightly lighter Green for hover */
+}
